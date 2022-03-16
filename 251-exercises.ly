@@ -1,4 +1,4 @@
-\version "2.19.54"
+\version "2.20.2"
 #(set-global-staff-size 18)
  \paper {
   #(define fonts
@@ -57,8 +57,6 @@ realBookTitle = \markup {
 }
 
 theNotes = \relative c' {
-  \set Staff.midiInstrument = "clarinet"
-  \key c \major
    d4 f( a) c( | b) d( f) d( | e) g r b( | b2) r2
   \bar "||" \break
 }
